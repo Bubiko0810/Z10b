@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Igor Drozd" />
+  <title>Miasta i herby</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #efefef;
+      padding: 20px;
+    }
+
+    .page {
+      width: 760px;
+      margin-left: 0;
+    }
+
+    .title {
+      font-size: 28px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+
+    .title .prompt {
+      font-weight: 700;
+    }
+
+    h2 {
+      margin: 0 0 18px;
+      font-size: 54px;
+      font-weight: 700;
+    }
+
+    .table {
+      width: 760px;
+      border: 2px solid #b7b7b7;
+      background: #f2f2f2;
+    }
+
+    .row {
+      display: table;
+      width: 100%;
+      border-bottom: 2px solid #b7b7b7;
+    }
+
+    .row:last-child {
+      border-bottom: none;
+    }
+
+    .label, .cell {
+      display: table-cell;
+      vertical-align: middle;
+      height: 240px;
+      border-right: 2px solid #b7b7b7;
+    }
+
+    .label {
+      width: 160px;
+      font-size: 24px;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .cell {
+      border-right: none;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .herb {
+      width: 100%;
+      max-width: 560px;
+      height: 220px;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h2>Miasta i herby</h2>
+
+    <div class="table">
+      <div class="row">
+        <div class="label">Wieliczka</div>
+        <div class="cell">
+          <img class="herb" src="wieliczka.png" alt="Herb Wieliczki" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="label">Warszawa</div>
+        <div class="cell">
+          <img class="herb" src="warszawa.png" alt="Herb Warszawy" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="label">Katowice</div>
+        <div class="cell">
+          <img class="herb" src="katowice.png" alt="Herb Katowic" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="label">Bydgoszcz</div>
+        <div class="cell">
+          <img class="herb" src="bydgoscz.png" alt="Herb Bydgoszcza" />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
